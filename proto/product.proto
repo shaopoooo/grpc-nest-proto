@@ -17,7 +17,7 @@ message CreateProductRequest {
     double price = 4;
 }
 
-message CreateOrderResponse {
+message CreateProdcutResponse {
     int32 status = 1;
     repeated string error = 2;
     int32 id = 3;
